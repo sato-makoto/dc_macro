@@ -1,0 +1,11 @@
+0 s0
+1 s1
+3 s3
+5 s5
+15 sz
+[l3 % p l0 =i ] sf
+[l5 % p l0 =b ] sb
+[lz % p l0 =u ] sb
+[[fizz] p c] si
+[[buzz] p c] sb
+[[fizzbuzz] p c] su

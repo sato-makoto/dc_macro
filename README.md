@@ -1,0 +1,1 @@
+macro of GNU dc
