@@ -3,9 +3,27 @@
 3 s3
 5 s5
 15 sz
-[l3 % p l0 =i ] sf
-[l5 % p l0 =b ] sb
-[lz % p l0 =u ] sb
-[[fizz] p c] si
-[[buzz] p c] sb
+
+28 sq
+
+[lq lz % st lt l0 =u] se
+[lq l5 % st lt l0 =b] sb
+[lq l3 % st lt l0 =i] sf
+
+[lt l0 != lq p] sp
+
 [[fizzbuzz] p c] su
+[[buzz] p c] sb
+[[fizz] p c] si
+
+
+lt
+le
+x
+lt
+lb
+x
+lt
+lf
+x
+
