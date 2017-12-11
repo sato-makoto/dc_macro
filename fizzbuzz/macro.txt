@@ -1,18 +1,30 @@
 # fizzbuzz script file
 # echo $num | dc -f macro.txt
+
+# divisor, compare flag
 0 s0
 1 s1
 3 s3
 5 s5
 15 sz
+# q register is divident
+
+# macros to print fizzbuzz
 [lq lz % st lt l0 =u] se
 [lq l5 % st lt l0 =k] sb
 [lq l3 % st lt l0 =i] sf
+
+# macro to print number
 [l0 0 =p] sc
 [lq p q] sp
+
+# if fizzbuzz|fizz|buzz
+# 0 register is -1
 [[fizzbuzz] p _1 s0] su
 [[buzz] p _1 s0] sk
 [[fizz] p _1 s0] si
+
+# expressions
 # [enter a number] p
 ? sq
 lex
