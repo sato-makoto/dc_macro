@@ -1,29 +1,21 @@
+# fizzbuzz script file
+# echo $num | dc -f macro.txt
 0 s0
 1 s1
 3 s3
 5 s5
 15 sz
-
-28 sq
-
 [lq lz % st lt l0 =u] se
-[lq l5 % st lt l0 =b] sb
+[lq l5 % st lt l0 =k] sb
 [lq l3 % st lt l0 =i] sf
-
-[lt l0 != lq p] sp
-
-[[fizzbuzz] p c] su
-[[buzz] p c] sb
-[[fizz] p c] si
-
-
-lt
-le
-x
-lt
-lb
-x
-lt
-lf
-x
-
+[l0 0 =p] sc
+[lq p q] sp
+[[fizzbuzz] p _1 s0] su
+[[buzz] p _1 s0] sk
+[[fizz] p _1 s0] si
+# [enter a number] p
+? sq
+lex
+lbx
+lfx
+lcx
