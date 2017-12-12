@@ -1,0 +1,10 @@
+# test code of loop
+
+1 sf
+10 sl
+0 st
+
+# recursive loop
+[lf lt + p st ll lt !=x] sx
+
+lxx
