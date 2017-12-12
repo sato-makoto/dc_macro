@@ -1,0 +1,6 @@
+# test code of [macro1 macro2] s macro3
+[1 2 + p] s1
+[3 2 * p] s2
+[4 6 - p] s3
+[l1x l2x l3x] sx
+lxx
