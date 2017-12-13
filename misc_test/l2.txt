@@ -1,0 +1,10 @@
+# test code of loop
+# string "1", "2", "3",..."9", "1""0"
+
+48 sf
+57 sl
+
+# recursive loop
+[c ll lf 1 + sf lf ap  r lf  <x] sx
+lxx
+49aP48ap
