@@ -1,7 +1,9 @@
 # fizzbuzz script file
-# echo $num | dc -f one_num.txt
+# from 1 to $NUM
+# echo $num | dc -f loop.txt
 
 # divisor, compare flag
+# flag of a fizzbuzz match or not
 0 s0
 1 s1
 3 s3
@@ -15,8 +17,10 @@
 [lq l3 % st lt l0 =i] sf
 
 # macro to print number
+# if 0 register is zero
+# print q register 
 [l0 0 =p] sc
-[lq p q] sp
+[lq p ] sp
 
 # if fizzbuzz|fizz|buzz
 # 0 register is -1
@@ -24,10 +28,16 @@
 [[buzz] p _1 s0] sk
 [[fizz] p _1 s0] si
 
-# expressions
+# loop macro
+# name of registers below are very dirty
+
+[0 s0] so
+[lex lbx lfx lcx lox l9x] s6
+0 s7
+# get number from standard input
 # [enter a number] p
-? sq
-lex
-lbx
-lfx
-lcx
+? 1 + s8
+[l7 1 + sq  lq  s7  c l7 l8  !=6 ] s9
+
+# expressions
+l9x
