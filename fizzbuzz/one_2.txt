@@ -1,0 +1,14 @@
+[[fizzbuzz]p _1 sn] sz
+[[fizzbuzz]p _1 sn] sz
+[[buzz]p _1 sn] sb
+[[fizz]p _1 sn] sf
+[lnp 0 sn] sm
+
+[ln 15 % 0=z]sp
+[ln 5  % 0=b]sq
+[ln 3  % 0=f]sr
+[ln 0 <m]st
+
+? sn
+[lpx lqx lrx ltx]x
+
