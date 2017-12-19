@@ -1,0 +1,34 @@
+# fizzbuzz 
+# echo $NUM | dc -f one_2.txt
+# no flag register
+
+# if true, print fizzbuzz, etc
+# and save -1 to n register
+[[fizzbuzz]p _1 sn] sz
+[[buzz]p _1 sn] sb
+[[fizz]p _1 sn] sf
+
+# print number and save 0
+[lnp 0 sn] sm
+
+# fizzbuzz, buzz, fizz
+[ln 15 % 0=z]sp
+[ln 5  % 0=b]sq
+[ln 3  % 0=f]sr
+
+# if number is larger than 0
+# exec m macro
+[ln 0 <m]st
+
+# get number from standerd input
+# and save o register
+? so
+0 sa
+0 sn
+
+[la lo >x] sy
+[la 1 + sa la sn] sc
+
+# exec macro
+[lcx lpx lqx lrx ltx lyx]sx
+lxx
