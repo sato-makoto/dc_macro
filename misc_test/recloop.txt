@@ -1,0 +1,6 @@
+# Endless loop
+0 s0
+[l0 1 + s0]s7
+[l7x l0p lxx]sx
+lxx
+

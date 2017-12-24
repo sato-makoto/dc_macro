@@ -1,0 +1,12 @@
+# fibonatti code of loop
+
+1 sf
+10 sl
+0 st
+0 ss
+
+# recursive loop
+[ls lf + ss] se
+[lt ls +p st lex ls ll >x] sx
+
+lxx

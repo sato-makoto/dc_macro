@@ -1,0 +1,13 @@
+# factrial calcing
+# echo $number | dc -f fact.txt
+# stores 1 to ? numbers on  stack
+1 s0
+? sz
+[l0 l0 1 + s0 l0 lz >y ] sy
+lyx
+lz
+
+# multiple all numbers
+[* z 1 <x ]sx
+lxx
+p
