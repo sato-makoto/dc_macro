@@ -1,0 +1,10 @@
+# factrial
+# echo number | dc -f d2.txt 
+
+? sl
+1  sf
+1  sb
+[lf 1 + sf lf ll !<x] sy
+[lb lf * sb  lf ll !<y] sx
+lyx
+lbp
