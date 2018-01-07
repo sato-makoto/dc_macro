@@ -1,0 +1,8 @@
+# print A, B, C, [BS], D
+
+65aP
+66aP
+67aP
+# BS
+8aP
+68ap
