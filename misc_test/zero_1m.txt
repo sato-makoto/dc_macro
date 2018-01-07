@@ -1,0 +1,6 @@
+# print 1048576 byte zero data 
+1048576 sl
+0 st
+[lt 1 + st lt ll !<y] sx
+[0aP lxx] sy
+lxx
