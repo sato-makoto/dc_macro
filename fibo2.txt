@@ -1,8 +1,9 @@
 # fibonatti code of loop
+# echo $LAST_NUMBER | dc -f fibo2.txt
 # incorrect yet
 
 1 sf
-10 sl
+? sl
 0 st
 0 ss
 
