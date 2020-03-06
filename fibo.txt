@@ -1,5 +1,5 @@
 # fibonatti code of loop
-# incorrect yet
+# incorrect yet!
 
 1 sf
 10 sl
