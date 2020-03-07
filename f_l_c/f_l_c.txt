@@ -1,0 +1,13 @@
+# f: first number register
+# l: last number register
+# c: changing number register (>0)
+# M: main rutine macro register
+# C: exec M macro register
+# echo 1 10 3 | dc -f f_l_c.txt
+
+?sc
+?sl
+?sf
+[lf p lc + sf lf ll  !<C]sM
+[lMx]sC
+lMx

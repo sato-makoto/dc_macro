@@ -1,0 +1,6 @@
+#? sa ? sb la lb +p
+[[True]p] st
+? 
+? 
+f
+>t
