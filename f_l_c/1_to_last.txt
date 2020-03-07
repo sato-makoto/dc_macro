@@ -1,0 +1,10 @@
+# f: first number register
+# l: last number register
+# M: main rutine macro register
+# C: exec M macro register
+# echo  10  | dc -f 1_to_last.txt
+
+?sl
+1sf
+[lf p 1 + sf lf ll  !<M]sM
+lMx
