@@ -1,0 +1,15 @@
+# echo 5 | dc -f last_to_1.txt
+
+# get standrd input and save it on l register 
+?sl
+
+# calc and flow macro
+# load r register
+# print
+# input 1
+# del two stack
+# copy it
+# save it on r register
+# if =>m exec r macro again
+[ll p 1 - d sl 1 !>r] sr
+lrx
