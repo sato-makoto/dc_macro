@@ -1,0 +1,18 @@
+# echo 5 | dc -f new_1_to_last.txt
+
+# initialize r stack
+0sr
+
+# get standrd input and save it on l register 
+?sl
+
+# calc and flow macro
+# load r register
+# input 1
+# add two stack
+# print
+# copy it
+# save it on r register
+# if >m exec m macro again
+[lr 1 + p d sr ll >m ]sm
+lmx
